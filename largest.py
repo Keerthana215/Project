@@ -1,12 +1,9 @@
-n1 = input()
-n2 = input()
-n3 = input()
- 
-if (n1 > n2) and (n1 > n3):
-   largest = n1
-elif (n2 > n1) and (n2 > n3):
-   largest = n2
+x, y, z = input().split() 
+if (x > y) and (x > z):
+   largest = x
+elif (y > x) and (y > z):
+   largest = y
 else:
-   largest = n3
+   largest = z
  
 print(largest)
